@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #f0f0f1;
+}
+.div img {
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    left:0px;
+    right: 0px;
+}
+.contact-form {
+    background-color: white;
+    width: 354px;
+    height: 376px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    margin-top: 100px;
+}
+.contact-form p {
+    font-size: 14px;
+    color: #555d66;
+    width: 90%;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: block;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Ramaraja', serif;
+}
+.contact-form .input_sec input {
+    width: 90%;
+    height: 32px;
+    padding: 5px;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.contact-form input:focus {
+    border: 2px solid #61aeec;
+
+}
+.contact-form .input_sec p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #555d66;
+    width: 90%;
+    font-weight: 400;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    margin-top: 2px;
+    display: block;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Ramaraja', serif;
+}
+
+.contact-form p:hover {
+    cursor: pointer;
+}
+.contact-form input :hover {
+    cursor: cell;
+    }
+.input_sec #tik {
+    width:90%;
+    height: 32px;
+    margin-left: 15px;
+}
+.input_sec #tik input {
+    color: rgb(64, 98, 112);
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    display: inline-block;
+}
+.contact-form .input_sec #tik label {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #555d66;
+    font-weight: 400;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-family: 'Ramaraja', serif;
+}
+.contact-form .input_sec button {
+    background: #61aeec;
+    border-color:#61aeec;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 120px;
+    display: block;
+    width: 90%;
+    height: 32px;
+    margin-left: 15px;
+    margin-top: 20px;
+    text-transform: capitalize;
+
+}
+.contact-form button:hover {
+    background: #2271b1;
+    border: 2px double #2271b1;
+    cursor: pointer;
+}
+.div1 {
+    width: 354px;
+    height: 270px;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    right:0px;
+    border:none;
+    margin: auto;
+}
+.div1 a {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #555d66;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-family: 'Ramaraja', serif;  
+}
+.div1 select {
+    color: #555d66;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Ramaraja', serif; 
+    width: 90%;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.div1 select:hover {
+    color:#61aeec;
+    cursor: pointer;
+}
+.div1 select:focus {
+    color:#61aeec;
+    border: 1px solid #61aeec;
+    cursor: pointer;
+}
